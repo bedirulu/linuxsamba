@@ -11,7 +11,7 @@ Sanal makine üzerinde dosya taşırken karşılaşılan `VBOX_E_DND_ERROR` hata
 
 ### 1. Yetki ve Erişim Hiyerarşisi
 **Sorun:** Dosya yapılandırmalarında "Permission Denied" hataları alındı.
-**Çözüm:** `sudo` yetkisi ile `chmod 777` ve `chown` komutları kullanılarak dosya sistemi üzerindeki kısıtlamalar kaldırıldı.
+**Çözüm:** `sudo` yetkisi ile `chmod 777` ve `chown` komutları kullanılarak dosya sistemi üzerindeki kısıtlamalar kaldırıldı.(770 önerilir)
 
 <img width="480" alt="Samba Setup Steps" src="https://github.com/user-attachments/assets/321a9060-8f5b-4e71-896d-98d641fd0859" />
 
